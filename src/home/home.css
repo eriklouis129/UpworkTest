@@ -30,3 +30,10 @@
     margin: auto;
     text-align: center;
 }
+.media-left .thumbnail {
+	-webkit-flex: 1;
+	flex: 1;
+}
+.media-left .thumbnail img {
+	width: 100%;
+}
