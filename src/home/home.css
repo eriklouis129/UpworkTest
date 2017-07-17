@@ -1,0 +1,32 @@
+.media-left {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.media-left span.index {
+	margin-right: 10px;
+}
+.media-left span.vote {
+	margin-right: 10px;
+	font-family: FontAwesome;
+	position: relative;
+}
+.media-left span.vote:before {
+	content: "\f062";
+	position: absolute;
+	top: -15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.media-left span.vote:after {
+	content: "\f063";
+	position: absolute;
+	bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
